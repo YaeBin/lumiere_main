@@ -1,0 +1,161 @@
+*{margin: 0px; padding: 0px;}
+
+a{text-decoration: none;
+    color: black;}
+ul{list-style: none;}
+
+body{
+    font-family: '나눔스퀘어';
+    font-size:100%;
+    line-height: 120%;
+    color:#98897b;
+}
+
+
+/*header_out*/
+#header_out{width:100%; height: 50px;background-color: #303030;}
+ 
+
+
+/* header1 */
+#header1{width: 1320px; margin: 0 auto; height: 50px; background-color: #303030;}
+.header1_nav{float: right;}
+.header1_nav li{float: left; padding: 15px 25px;}
+.header1_nav li a{color: #98897b; box-sizing: border-box;
+    font-weight: bold;}
+
+/*header2_out*/
+#header2_out{width:100%; height: 70px;background-color: #303030;}
+ 
+
+
+/* header2 */
+#header2{width: 1320px; margin: 0 auto; width: 1320px; height: 70px; background-color: #303030;}
+.logo{float: left; margin-left: 25px;}
+
+.header2_nav{float: right;  }
+.header2_nav li{float: left; padding: 22px 25px 10px 120px;}
+.header2_nav li a{color: #98897b; box-sizing: border-box; 
+    font-weight: bold; font-size: 20px;}
+
+/* banner */
+.banner{width: 100%; height:781px;
+    background: url(images/banner2.jpg) no-repeat center top;
+    background-size: cover;
+}
+.banner a{width:100%; height:100%; display:block;}
+
+/*con1*/
+#con1{width:1320px; margin:100px auto; text-align: center; height: 700px;}
+h1{padding-bottom:70px;}
+h2{text-align: left; margin: 15px 0;}
+
+.tag{margin-top: 5px; margin-bottom: 20px;}
+.promotion li{float:left; width:560px; height:700px;
+                margin:0 50px; text-align: left;
+}
+.pro_text{
+    line-height: 25px;
+    padding:25px 0;
+        border-top:1px solid #98897b;
+        border-bottom:1px solid #98897b;
+}
+
+h3{text-align: left; padding-bottom: 30px;}
+
+.b1,.b2{display:inline-block; margin-top: 20px; font-size: 20px; }
+
+.small{font-size: 15px;}
+.b2{padding-left: 280px; font-size: 20px;}
+
+/*con2*/
+#con2{width:1320px; margin:0 auto; height: 490px;}
+#con2 ul li{float:left;}
+.room{width:832px; margin-right:69px;}
+.facility{width:419px;}
+.facility img{display: block;}
+
+
+
+/*con3*/
+#con3{width: 100%; margin: 0 auto; height: 780px; text-align: center;
+background-color: #f9f9f9; }
+
+.con3_inner{width: 1320px; margin: 0 auto; height: 780px; 
+    text-align: center;}
+
+    #con3 h2{text-align: center; padding-top:100px;}
+    #con3 h3{text-align: center;}
+.membership .padding{padding:  0 108px; }
+.membership li{float: left;}
+.membership li a{display: block;}
+
+.black{font-weight: bold; text-align: center; font-size: 18px; padding-top: 20px; display: block;} 
+
+/*con4*/ 
+
+/*  box-sizing: border-box; : padding무시하고 float정렬 */
+#con4{width: 1320px; margin: 90px auto; height: 830px; }
+.box{width: 100%; height: 700px;}
+
+.left{float: left;  height: 600px; width: 500px; background-color: #8d8d8d;
+padding: 40px;}
+
+.white{color:white; padding: 10px;}
+.pd{padding-top:50px; line-height: 23px; }
+.pd2{padding:240px 20px 0 ; line-height: 25px;}
+
+.right{float: right;}
+
+.under{width: 1320px; margin: 50px auto; height: 100px;}
+
+.under_ul li {float: left; padding-left: 80px; padding-right: 80px;
+    }
+
+.under_ul li a{display: block;
+                font-weight: 500;
+                line-height: 23px;
+             }
+
+.under_ul li:nth-child(1){background: url(images/border.jpg) no-repeat right}
+.under_ul li:nth-child(2){background: url(images/border.jpg) no-repeat right}
+.under_ul li:nth-child(3){background: url(images/border.jpg) no-repeat right}
+.under_ul li:nth-child(4){background: url(images/border.jpg) no-repeat right}
+
+/*footer1*/ 
+#footer1_out{width: 100%; height: 50px; background-color: #bdaea1}
+.footer1{width: 1320px; height: 50px; margin: 0 auto;}
+.footer1 ul li{float: left; padding: 15px 140px 0 0;}
+.footer1 ul li a{display: block; 
+    color: #565656;}
+
+ .footer1 ul li:nth-child(6) {padding-right:0;}   
+
+
+/*footer2*/ 
+#footer2_out{width: 100%; height: 250px; background-color: #303030;}
+.footer2{width: 1320px;margin: 0 auto;
+position: relative;}
+
+.bold{font-weight: bold;}
+
+.footer_box1{padding: 50px 130px 0 0; font-size: 20px;}
+
+.footer_box2{position: absolute top right 50px;  }
+
+.footerlogo{padding-top: 15px;}
+
+.footer2 ul{height: 100px; }
+.footer2>ul>li{float: left;}
+.footer2>ul>li>a{display: block;}
+
+.sns ul{padding-top: 15px; }
+
+.sns ul li{float: left; padding-right: 15px;}
+
+
+select{padding:10px; background-color: beige; margin-top:50px;}
+option{padding:10px; background-color: beige;}
+
+
+.f{clear:both;}
